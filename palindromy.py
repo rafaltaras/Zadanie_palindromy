@@ -1,7 +1,3 @@
-
-from cgi import print_directory
-
-
 def palidrom(word):
     """
     Funkcja odwraca słowo i sprawdza czy jest takie samo jak pierwotnie podane
