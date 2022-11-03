@@ -5,8 +5,9 @@ def palidrom(word):
     normal = word[::]
     reverse = word[::-1]
     if normal == reverse:
-        print(f"Słowo {word} jest palidronem")
+        return True 
     else:
-        print(f"Słowo {word} nie jest palidronem")
+        return False
 
-palidrom('meble')
+result = palidrom('kaja')
+print(result)
